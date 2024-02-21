@@ -3,8 +3,8 @@ import { Link } from "react-router-dom";
 
 const Categories = () => {
     return(
-        <div className="container-fluid mt-5 pt-5" id="categories">
-            <h2 className="text-center arizona-text my-5 py-5">Browse by category</h2>
+        <div className="container-fluid mt-md-5 pt-5" id="categories">
+            <h2 className="text-center arizona-text my-5 py-md-5">Browse by category</h2>
             <ul className="row list-unstyled mb-0">
             {categories.map(category => {
                 return (

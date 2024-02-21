@@ -30,7 +30,7 @@ export default class LargeFrame extends Component {
                 {
                     name: "mobile feature 1",
                     price: 5,
-                    src: "categories/nature/paintedflower.jpg"
+                    src: "categories/paintedflower.jpg"
                 },
             ]})
         }

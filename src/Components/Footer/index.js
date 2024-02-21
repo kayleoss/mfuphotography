@@ -9,13 +9,13 @@ export default function Footer(){
                         <ul className="list-unstyled">
                             <li className="pt-2"><a className="text-light text-decoration-none fs-5" href="https://instagram.com/fu.molly" rel="noreferrer" target="_blank"><i className="fa fa-instagram"></i> fu.molly</a></li>
                             <li className="pt-2"><a className="text-light text-decoration-none fs-5" href="https://1x.com/mfuphotography" rel="noreferrer" target="_blank"><i className="fa fa-image"></i> mfuphotography</a></li>
-                            <li className="pt-2"><a className="text-light text-decoration-none fs-5" href="" rel="noreferrer" target="_blank"><i className="fa fa-dollar"></i> molly.fu</a></li>
+                            <li className="pt-2"><a className="text-light text-decoration-none fs-5" href="#" rel="noreferrer" target="_blank"><i className="fa fa-dollar"></i> molly.fu</a></li>
                         </ul>
                     </div>
                     <div className="col-sm-4"></div>
                     <div className="col-sm-4">
                         <ul className="list-unstyled">
-                            <li className="pt-2"><a className="text-light text-decoration-none fs-5" href="#featured">Featured</a></li>
+                            <li className="pt-2"><a className="text-light text-decoration-none fs-5" href="/#featured">Featured</a></li>
                             <li className="pt-2"><a className="text-light text-decoration-none fs-5" href="#categories">Categories</a></li>
                         </ul>
                     </div>

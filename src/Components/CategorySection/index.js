@@ -2,6 +2,7 @@
 import {useParams} from "react-router-dom";
 import Header from "../Header";
 import Footer from "../Footer";
+import Categories from "../Categories";
 import { categories } from "../photodata";
 import { useEffect, useState } from "react";
 
@@ -33,8 +34,8 @@ const CategorySection = () => {
     return (
         <>
         <Header fixedClass='bg-light' />
-            <h1 className="text-center mt-5 pt-5 arizona-text">{currentCat[0].name}</h1>
-            <div className="container-fluid mt-5 pt-5">
+            <h1 className="text-center mt-md-5 pt-5 arizona-text">{currentCat[0].name}</h1>
+            <div className="container-fluid mt-md-5 pt-md-5">
 
                 {state.loading === true ? 
                 <div className="text-center">
@@ -171,6 +172,7 @@ const CategorySection = () => {
                 </div>
                 
             </div>
+        <Categories />
         <Footer />
         </>
     )

@@ -5,8 +5,9 @@ const Header = (props) => (
         <div className="container-fluid">
         <Link className="navbar-brand arizona-text p-2" to="/">Molly Fu Photography</Link>
         <div className="d-flex">
+            <Link className="nav-link p-2" to="/">Home</Link>
             <a className="nav-link p-2" href="/#features">Featured</a>
-            <a className="nav-link p-2" href="/#categories">Categories</a>
+            <a className="nav-link p-2" href="#categories">Categories</a>
         </div>
         </div>
     </nav>
