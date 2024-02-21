@@ -45,6 +45,11 @@ const CategorySection = () => {
                 </div>
                 : ""}
 
+
+                {slicedLength === 0 ? 
+                <h2 className="text-center fw-bold">Oops! No pictures have been added in this category.</h2>
+                : ""}
+
                 
                 <div className="row">
                     {cols.map(col => (
