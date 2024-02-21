@@ -46,7 +46,7 @@ const CategorySection = () => {
                 : ""}
 
 
-                {slicedLength === 0 ? 
+                {slicedLength === 0 && state.loading === false ? 
                 <h2 className="text-center fw-bold">Oops! No pictures have been added in this category.</h2>
                 : ""}
 
