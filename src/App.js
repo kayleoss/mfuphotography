@@ -11,10 +11,13 @@ import CategorySection from './Components/CategorySection/index.js';
 
 class App extends Component {
   onResize() {
+    console.log("resized")
     window.location.reload(); 
   }
-  render() {
+  componentDidMount() {
     window.addEventListener('resize', this.onResize);
+  }
+  render() {
     return (
       <div className="App">
         <Routes>
