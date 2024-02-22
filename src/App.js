@@ -9,13 +9,22 @@ import Header from './Components/Header';
 import { Route, Routes, ScrollRestoration } from 'react-router-dom';
 import CategorySection from './Components/CategorySection/index.js';
 
-class App extends Component {
-  onResize() {
-    window.location.reload(); 
+export default class App extends Component {
+  state = {
+    windowWidth: 0
   }
+
+  onResize = () => {
+    if (window.innerWidth !== this.state.windowWidth) {
+      window.location.reload();
+    }
+  }
+
   componentDidMount() {
+    this.setState({windowWidth: window.innerWidth});
     window.addEventListener('resize', this.onResize);
   }
+
   render() {
     return (
       <div className="App">
@@ -52,5 +61,3 @@ function Main() {
       </>
   )
 }
-
-export default App;
