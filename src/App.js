@@ -11,7 +11,6 @@ import CategorySection from './Components/CategorySection/index.js';
 
 class App extends Component {
   onResize() {
-    console.log("resized")
     window.location.reload(); 
   }
   componentDidMount() {

@@ -47,7 +47,7 @@ const CategorySection = () => {
 
 
                 {state.images.length/3 === 0 && state.loading === false ? 
-                <h2 className="text-center fw-bold">Oops! Ask Molly to add more photos.</h2>
+                <h2 className="text-center fw-bold">Oops! No photos have been added in this category yet.</h2>
                 : ""}
 
                 
